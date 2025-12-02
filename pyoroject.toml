@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "hiring_agent"
+version = "0.1.0"
+description = "Minimal pyproject to pin Python to 3.11 for Render (not pushed)."
+authors = ["Akshitha <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "3.11.*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
